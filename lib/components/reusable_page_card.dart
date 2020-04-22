@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class InputPageCard extends StatelessWidget {
-  InputPageCard({@required this.bgColor, this.cardChild, this.onTapFunction});
+class ReusableCard extends StatelessWidget {
+  ReusableCard({@required this.bgColor, this.cardChild, this.onTapFunction});
 
   final Color bgColor;
   final Widget cardChild;
